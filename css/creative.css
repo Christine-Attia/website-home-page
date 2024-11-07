@@ -1,0 +1,400 @@
+
+.navbar{
+    /* margin-left: 20px; */
+    position: fixed; 
+    top: 0;          
+    left: 0;         
+    right: 0;        
+    z-index: 1000;   
+    width: 100%;
+
+}
+body {
+    padding-top: 0px; /* Add padding to prevent content from hiding behind the navbar */
+}
+
+.collapse{
+    margin-right: 20px;
+}
+.linkcustom{
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 14px;
+    font-family: "Lato", system-ui;
+}
+img{
+    margin-left: 20px;
+}
+.linkcustomcontact button{
+    color: black;
+    font-weight: 500;
+    font-family: "Lato", system-ui;
+    border: none;
+    padding: 10px;
+    font-size: 14px;
+    margin-top: -8px;
+}
+.linkcustomcontact button:hover{
+    background-color: #0461D5;
+    color: white;
+}
+/* a img{
+    margin-left:50px;
+} */
+#header{
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.616) 0% 100%),url(../images/agency-1.jpg);
+    background-position: center;
+    background-size: cover;
+    /* margin-top: -70px; */
+}
+/* #header :before {
+    content: "";
+    display: block;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top:0;
+    left: 0;
+    opacity: 0.7;
+    background:black none  scroll center center / cover;
+} */
+h1{
+    font-size: 100px;
+    font-weight: 900;
+    font-family: "Lato", system-ui;
+    color:white;
+}
+p{
+    font-size: 28px;
+    font-weight: 400;
+    color: white;
+}
+.header-btn .aboutus,
+.header-btn .porto{
+    border: none;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 15px 28px;
+    translate: all 2s;
+}
+.header-btn .aboutus{
+    color:#1D1D1E;
+    background-color: white;
+}
+.header-btn .aboutus:hover{
+    background-color: rgba(255, 255, 255, 0.603);
+}
+.header-btn .porto{
+    color:white;
+    background-color: rgb(4, 97, 213);
+}
+.header-btn .porto:hover{
+    color:#1D1D1E;
+    background-color: white;
+}
+i{
+    font-size: 28px;
+    font-weight: 300;
+    color:#303030;
+    padding: 10px;
+}
+h5{
+    font-size: 20px;
+    color:rgb(48, 48, 48);
+    font-family: "Lato", system-ui;
+    padding: 3px;
+    font-weight: 900;
+}
+.card-text{
+    color: RGB(136, 136, 136);
+    font-size: 17px;
+    font-family: "Lato", system-ui;
+    padding: 3px;
+}
+.first-content{
+    position: relative;
+    top: 40px;
+}
+.card-body{
+    margin: 5px;
+
+}
+.second-content{
+    margin-top:150px ;
+    font-family: "Lato", system-ui;
+
+}
+.text-ourwork{
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.text-ourwork h2{
+    font-family: "Lato", system-ui;
+    font-size: 42px;
+    font-weight: 900;
+    line-height: 57.96px;
+}
+.text-ourwork p{
+    color:#303030;
+    font-size: 21.78px;
+    max-width: 600px;
+}
+
+.carousel-indicators [data-bs-target]{
+    
+    background-color: rgba(128, 128, 128, 0.5);
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    margin-top: 410px;
+}
+.card-body img{
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    border-radius: 4px;
+}
+.card-body{
+    padding: 0%;
+    position: relative;
+    left:0;
+    top:0;
+    width: 100%; 
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.card-body h4{
+    margin-top: 50%;
+}
+
+.overlap-background{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border-radius: 4px;
+    background-color: black;
+    left: 0;
+    top: 100%;
+    opacity: 0.4;
+    translate: all 5s;
+}
+
+.card-body:hover .overlap-background{
+    top:0;
+}
+
+.view-all{
+    padding: 21px 50px;
+    background-color:#0461D5;
+    border: none;
+    margin: auto;
+    margin-top: 40px;
+}
+.view-all a{
+    font-size: 14px;
+    color:white;
+    font-family: "Lato", system-ui;
+    text-decoration: none;
+    font-weight: 900;
+}
+.view-all:hover{
+    background-color:#303030;
+}
+#section-three{
+    background-color: #1b1b1b;
+    width: 100%;
+    margin-top: 60px;
+    height: 26em;
+}
+.ic-on{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+.icon{
+    font-size: 39.9px;
+    color: #0461D5;
+    
+}
+.quote{
+    display: flex;
+    justify-content: center;
+}
+.quote{
+    font-size: 27px;
+    color:#8B8B8B;
+    text-align: center;
+}
+.btns-two [data-bs-target]{
+    
+    background-color: rgba(128, 128, 128, 0.5);
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    margin-top: 210px;
+    
+}
+.card-body .name,
+.card-body div{
+    color:white;
+    text-align: center;
+    width: 100%;
+}
+#section-four{
+    background-color: #F8F8F8;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    height: 25rem;
+    margin-top: 8em;
+}
+
+.btns-three [data-bs-target]{
+    
+    background-color: rgba(128, 128, 128, 0.5);
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    margin-top: 12rem;
+}
+#section-five{
+    margin-top: 15rem;
+}
+#section-five .container-fluid{
+    justify-content: space-between;
+    padding-top: 30px;
+}
+#section-five .card{
+    opacity: 0.8;
+    padding: 10px;
+}
+#section-five .card:hover{
+    opacity: 1;
+}
+/* #section-six{
+    background-color: #0461D5;
+    width: 100%;
+    margin-top: 10rem;
+} */
+#section-six {
+    width:100%;
+    margin-top: 40px;
+    /* padding-left:10rem; */
+    background-color: #0461D5;
+}
+
+#section-six .row{
+    padding: 60px;
+    margin: 20px;
+}
+.btn-contacts .btn-contact{
+    border: 1px white solid;
+    background-color: #0461D5;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 15px 28px;
+}
+.text-content h2{
+    font-size: 41px;
+    font-weight: 900;
+    color: white;
+    font-family: "Lato", system-ui;
+    /* translate: all 1s; */
+
+}
+.btn-contacts .btn-contact:hover{
+    color:#1b1b1b;
+    background-color: rgb(255, 255, 255);
+    
+}
+.btn-contacts .btn-contact a{
+    color:white;
+    font-size: 13px;
+    font-weight: 900;
+    font-family: "Lato", system-ui;
+}
+#footer-one{
+    background-color: #1b1b1b;
+    /* margin-top: 50px; */
+}
+#footer-one .card{
+    background-color: #1b1b1b;
+    color:#797979;
+    font-size: 16px;
+    font-family: "Lato", system-ui;
+    font-weight: 400;
+    line-height: 29.76px;
+    /* background-color: #7392b8; */
+    padding-bottom: 100px;
+    
+}
+#footer-one .card-title{
+    color:white;
+    font-size: 20px;
+    font-weight: 900;
+    font-family: "Lato", system-ui;
+}
+#footer-one .card-body p{
+    font-size: 16px;
+    color:#797979;
+}
+#footer-one .card-body ul{
+    list-style: none;
+}
+#footer-one .card-body .Opening li{
+    margin-left: -30px;
+}
+#footer-one .card-body ul li a{
+    text-decoration: none;
+    margin-left: -30px;
+    translate: all 2s;
+}
+#footer-one .card-body ul li a:hover{
+    color:white;
+}
+
+#footer-one .card-body ul li .iconz{
+    font-size: 18px;
+    color:#797979;
+}
+#footer-one .card-body .detail li{
+    margin-left: -40px;
+}
+#footer-two{
+    background-color: #151515;
+}
+#footer-two .container-fluid{
+    margin: 20px;
+    padding: 20px;
+}
+#footer-two .last-text p{
+    color: #797979;
+    font-size: 16px;
+}
+#footer-two .last-text .ico{
+    color: #797979;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    font-size: 16px;
+    display: flex;
+    justify-content: flex-end;
+}
+#footer-two .last-text .ico .facebook:hover{
+    color:#0078d7;
+}
+#footer-two .last-text .ico .google:hover{
+    color:#ea4335;
+}
+#footer-two .last-text .ico .linkedin:hover{
+    color:#0a66c2;
+}
+#footer-two .last-text .ico .twitter:hover{
+    color:#1da1f2;
+}
+
+
+
+
